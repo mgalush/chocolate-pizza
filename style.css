@@ -1,0 +1,204 @@
+html {
+  margin: 0px 50px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  justify-content: space-between;
+
+}
+
+.top-logo {
+  height: 48px;
+  width: 45px;
+  margin-right: 12px;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav > ul > li {
+  padding: 1px;
+  margin: auto 0px;
+}
+
+nav > ul > li:nth-child(6){
+  padding-right: 10px;
+}
+
+nav > section {
+  display:flex;
+  margin: auto 0px;
+}
+
+.delicious {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 35px;
+}
+.nameSection > p {
+  margin-top: 4px;
+}
+
+.sansSerif {
+  font-family: Arial;
+  color: gray;
+  font-size: 10px;
+}
+
+.borderthing {
+  height: 15px;
+  background-image: url('assets/hr-img.png');
+  background-repeat: repeat;
+  width: 100%;
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-head {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.print {
+  display:flex;
+  flex-direction: row;
+  margin-top: 90px
+}
+
+.print > img {
+  height: 10px;
+}
+
+.pizzahead {
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 8px;
+}
+main > img {
+  margin-top: 25px;
+  width:100%;
+}
+
+main > p {
+  margin-top: 28px;
+  text-indent: 35px;
+}
+
+.paragraph {
+  font-size:16px;
+  line-height: 30px;
+
+}
+
+main > ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url('/assets/list-bg.png');
+  background-repeat: repeat-y;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 300px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 21px;
+}
+
+.firsthalflist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 58%;
+  margin-left: 60px;
+  margin-top: 43px;
+}
+
+.secondhalflist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65%;
+  width:300px;
+  margin-top:43px;
+  margin-right:80px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footertop {
+  margin-bottom: 80px;
+
+}
+
+footer > section > section {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameandbio {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.nameandbio > h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer > section > section > img {
+  height: 70px;
+} 
+
+button {
+  border-style: none;
+  height: 50px;
+  width: 180px;
+  background-color: #a15b42;
+  color: white;
+  font-size: 17px;
+}
+
+
+/*  */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  width: 45%;
+}
+
+footer > footer {
+  text-align:center;
+  margin-bottom: 100px;
+}
+
+footer > footer > p {
+  color:gray;
+}
+
+.copyright {
+  color: gray;
+  font-size: 15px;
+  line-height: 20px;
+}
