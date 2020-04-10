@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-between;
+
+}
+
+.top-logo {
+  height: 48px;
+  width: 45px;
+  margin-right: 12px;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav > ul > li {
+  padding: 1px;
+  margin: auto 0px;
+}
+
+nav > ul > li:nth-child(6){
+  padding-right: 10px;
+}
+
+nav > section {
+  display:flex;
+  margin: auto 0px;
+}
+
+.delicious {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 35px;
+}
+.nameSection > p {
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.sansSerif {
+  font-family: Arial;
+}
