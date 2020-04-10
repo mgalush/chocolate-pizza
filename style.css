@@ -88,3 +88,45 @@ main > img {
   margin-top: 25px;
   width:100%;
 }
+
+main > p {
+  margin-top: 28px;
+  font-size:18px;
+  text-indent: 35px;
+  line-height: 30px;
+}
+
+main > ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url('/assets/list-bg.png');
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 300px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 21px;
+}
+
+.firsthalflist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 58%;
+  margin-left: 60px;
+  margin-top: 43px;
+}
+
+.secondhalflist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65%;
+  width:300px;
+  margin-top:43px;
+  margin-right:80px;
+}
+
+span {
+  text-indent: 40px;
+}
