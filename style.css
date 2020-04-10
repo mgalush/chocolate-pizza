@@ -1,7 +1,11 @@
+html {
+  margin: 0px 50px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
-  height: 150px;
+  height: 120px;
   justify-content: space-between;
 
 }
@@ -37,10 +41,50 @@ nav > section {
   font-size: 35px;
 }
 .nameSection > p {
-  font-size: 10px;
   margin-top: 4px;
 }
 
 .sansSerif {
   font-family: Arial;
+  color: gray;
+  font-size: 10px;
+}
+
+.borderthing {
+  height: 15px;
+  background-image: url('assets/hr-img.png');
+  background-repeat: repeat;
+  width: 100%;
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-head {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.print {
+  display:flex;
+  flex-direction: row;
+  margin-top: 90px
+}
+
+.print > img {
+  height: 10px;
+}
+
+.pizzahead {
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 8px;
+}
+main > img {
+  margin-top: 25px;
+  width:100%;
 }
